@@ -1,0 +1,23 @@
+.head-container {
+  margin-left: 10px;
+  width: 337px;
+  height: 23.68px;
+  position: absolute;
+}
+
+.mobile-head {
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-weight: 400;
+  font-size: 16.3946px;
+  color: #000000;
+}
+
+.btry > img {
+  margin-left: 5px;
+}

@@ -1,0 +1,76 @@
+.newcontainer {
+  width: 328px;
+  height: 278px;
+  overflow: hidden;
+}
+
+.newtitle {
+  margin-top: 10px;
+  width: 328px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newtitle > h1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  display: inline;
+}
+
+.newtitle > span {
+  font-weight: 600;
+  font-size: 11px;
+  color: #666666;
+}
+/* ----------------------- */
+.p01 {
+  margin-top: 10px;
+  width: 155px;
+  height: 240px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.p01 > img {
+  top: 0;
+  left: 0;
+  width: 155px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.p01-text {
+  width: 125px;
+  height: 59px;
+}
+
+.p01-text > h2 {
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.p01-text > p {
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
+}
+
+.love {
+  position: absolute;
+  top: 15px;
+  left: 120px;
+  width: 20px;
+  height: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sneaker {
+  font-size: 14px;
+}

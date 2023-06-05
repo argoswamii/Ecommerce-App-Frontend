@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main form {
+  width: 390px;
+  height: 340px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecd2d2;
+}
+.x {
+  margin-top: 5px;
+}
+
+form {
+  padding-left: 30px;
+}
+
+#cardNumber {
+  width: 345px;
+  height: 30px;
+}
+
+#cardName {
+  width: 345px;
+  height: 30px;
+}
+
+.main button {
+  height: 50px;
+  width: 350px;
+  margin-top: 30px;
+  background-color: #f53d71;
+}
+
+.both {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+.ExD > input {
+  height: 30px;
+  width: 145px;
+}
+
+.security > input {
+  height: 30px;
+  width: 140px;
+}
+.code {
+  margin-left: 15px;
+}
+
+/* ------------------- */
+
+.loding {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.loding > img {
+  height: 60px;
+  width: 60px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.loding > div {
+  margin: 10px;
+}
+
+.successful {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.successful > img {
+  margin-left: 100px;
+}
+
+.p1 {
+  padding-top: 10px;
+}

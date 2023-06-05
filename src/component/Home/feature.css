@@ -1,0 +1,58 @@
+.feature {
+  margin-top: 20px;
+  width: 535px;
+  height: 160px;
+  display: flex;
+}
+.feature01 {
+  position: relative; /* Added for positioning */
+  width: 260px;
+  height: 160px;
+  background: #666666;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.feature02 {
+  margin-left: 20px;
+  position: relative;
+  width: 90px;
+  height: 160px;
+  background: #666666;
+  overflow: hidden;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.offer {
+  position: absolute; /* Added for positioning */
+  top: 10px;
+  left: 10px;
+  width: 163px;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.discount > span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 11px;
+  color: #666666;
+}
+
+.discount > div {
+  margin-top: 10px;
+  color: aliceblue;
+  display: inline-block;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  padding-left: 13px;
+  padding-right: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  width: 325px;
+  height: 50px;
+  left: 25px;
+  top: 44px;
+}
+
+.menu {
+  width: 35px;
+  height: 35px;
+  left: 25px;
+  top: 53px;
+}
+
+.user {
+  width: 50px;
+  height: 50px;
+  left: 300px;
+  top: 44px;
+}
+
+.profilcover {
+  width: 50px;
+  display: flex;
+  height: 50px;
+  border-radius: 50%;
+  background: #dddddd;
+}

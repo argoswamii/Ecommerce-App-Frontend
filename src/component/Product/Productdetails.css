@@ -1,0 +1,158 @@
+.pro-con {
+  width: 375px;
+  height: 330px;
+  background-color: none;
+}
+
+.inside-con {
+  border-radius: 30px 30px 0px 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pro-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Roller {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  height: 56px;
+  width: 121;
+}
+.Roller > p {
+  font-weight: 400;
+  font-size: 11px;
+  color: #666666;
+}
+
+.btn {
+  width: 70px;
+  height: 30px;
+  background: #eeeeee;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.btn > span {
+  padding-left: 7px;
+  padding-right: 7px;
+  cursor: pointer;
+}
+
+.rest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review {
+  font-weight: 400;
+  font-size: 11px;
+  color: #000000;
+}
+
+.rest > p {
+  font-weight: 600;
+  font-size: 11px;
+  color: #000000;
+}
+
+.size > h2 {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+.sizes {
+  width: 260px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sizes > span {
+  margin-top: 5px;
+  border-radius: 50%;
+  border: 1px solid #dddddd;
+  width: 40px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.description {
+  margin-top: 10px;
+}
+
+.description > h2 {
+  font-weight: 600;
+  font-size: 16px;
+  width: 93px;
+  height: 24px;
+  color: #000000;
+}
+.description > p {
+  margin-top: 10px;
+  width: 325px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 11px;
+  color: #666666;
+}
+
+.price-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.price-button > span {
+  width: 70px;
+  height: 29px;
+}
+
+.price-button > span > p {
+  font-weight: 400;
+  font-size: 9px;
+  color: #aaaaaa;
+}
+
+.price-button > span > h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: #000000;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.buy > img {
+  padding-right: 10px;
+}
+/* ---------- */
+.normalStyle {
+  background: white;
+}
+.activeStyle {
+  color: white;
+  background: black;
+}
